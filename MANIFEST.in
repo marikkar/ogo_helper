@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ogo_helper *.css
+recursive-include ogo_helper *.csv
+recursive-include ogo_helper *.html
+recursive-include ogo_helper *.ico
+recursive-include ogo_helper *.js
+recursive-include ogo_helper *.json
+recursive-include ogo_helper *.md
+recursive-include ogo_helper *.png
+recursive-include ogo_helper *.py
+recursive-include ogo_helper *.svg
+recursive-include ogo_helper *.txt
+recursive-exclude ogo_helper *.pyc
